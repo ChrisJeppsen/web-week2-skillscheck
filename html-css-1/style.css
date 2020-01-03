@@ -1,0 +1,171 @@
+body{
+    position: relative;
+}
+header {
+    height: 50px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+.right-header{
+    height:40px;
+    width: 150px;
+    position: absolute;
+    color: white;
+    right: 200px;
+    font-size: 15px;
+    
+
+}
+.right2-header{
+    height:40px;
+    width: 150px;
+    position: absolute;
+    color: white;
+    right: 150px;
+    font-size: 15px;
+    
+
+}
+.right3-header{
+    height:40px;
+    width: 150px;
+    position: absolute;
+    color: white;
+    right: 100px;
+    font-size: 15px;
+    
+
+}
+.left-header{
+    height:40px;
+    width: 75px;
+    position: absolute;
+    color: white;
+    left: 100px;
+    font-size: 20px;
+    
+
+}
+.black-box{
+    height: 218px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text-holder{
+    height:100px;
+    background-color: black;
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    
+}
+.white-box{
+    height: 395px;
+    background-color:white;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items:center
+}
+ 
+.bluebox-container{
+    display: flex;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0px;
+    width: 100%
+    
+}
+#bluebox1{
+    height:100px;
+    background-color: turquoise;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+#bluebox2{
+    height:100px;
+    background-color: turquoise;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+#bluebox3{
+    height:100px;
+    background-color: turquoise;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+.orangebox-container{
+    position: absolute;
+    height:235px;
+    bottom: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+#orangebox1{
+    height: 100px;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    display: inline-block;
+}
+#orangebox2{
+    height: 100px;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 0px;
+    right: 450px;
+    display: inline-block;
+}
+
+footer{
+    height:75px;
+    background-color: black;
+    position: relative;
+}
+#text{
+    height: 75px;
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    color: black;
+    left: 300px;
+    font-size: 10px;
+    
+}
+#img{
+    background-image: url("https://images.pexels.com/photos/413195/pexels-photo-413195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 75px;
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 300px;
+    font-size: 10px;
+    
+}
